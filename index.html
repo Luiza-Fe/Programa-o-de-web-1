@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Formulário</h2>
+    <form action="test.php" method="post">
+        <fieldset>
+          <legend>Dados pessoais</legend>
+          <label for="fname">Nome:</label>
+          <input type="text" id="fname" name="fname"> <br> <br>
+          <label for="birthday">Data de nascimento:</label>
+          <input type="text" id="birthday" name="birthday"> <br> <br>
+          <label for="end">Endereço:</label>
+          <input type="text" id="end" name="end"> <br> <br>
+          <label for="ba">Bairro:</label>
+          <input type="text" id="ba" name="ba">
+          <label for="city">Cidade:</label>
+          <input type="text" id="city" name="city"> <br> <br>
+          <label for="cep">CEP:</label>
+          <input type="text" id="cep" name="cep">
+          <label for="states">Estado: </label>
+          <select name="select">
+            <option value="valor1">Ceará</option>
+            <option value="valor2" selected>São Paulo</option>
+            <option value="valor3">Rio de Janeiro</option>
+          </select>
+        </fieldset>
+        <fieldset>
+            <legend>Dados profissionais</legend>
+            <label>Natureza do cargo</label> <br> <br>
+            <input type="radio" id="geren" name="nature" value="Gerência">
+            <label for="geren">Gerência</label>
+            <input type="radio" id="finan" name="nature" value="Financeiro">
+            <label for="finan">Financeiro</label>
+            <input type="radio" id="recep" name="nature" value="Recepção">
+            <label for="recep">Recepção</label>
+            <input type="radio" id="admin" name="nature" value="Administrativo">
+            <label for="admin">Administrativo</label>
+            <input type="radio" id="juri" name="nature" value="Jurídico">
+            <label for="juri">Jurídico</label> <br> <br>
+
+            <label>Área de interesse</label> <br> <br>
+            <input type="checkbox" id="opcao1" name="opcao1" value="Computação">
+            <label for="opcao1">Computação</label>
+            <input type="checkbox" id="opcao2" name="opcao2" value="Química">
+            <label for="opcao2">Química</label>
+            <input type="checkbox" id="opcao3" name="opcao3" value="Meio ambiente">
+            <label for="opcao3">Meio ambiente</label>
+            <input type="checkbox" id="opcao4" name="opcao4" value="Engenharia">
+            <label for="opcao4">Engenharia</label>
+            <input type="checkbox" id="opcao5" name="opcao5" value="Matemática"> 
+            <label for="opcao5">Matemática</label> <br> <br>
+
+            <label>Mini-currículo</label> <br>
+            <textarea>
+
+
+            </textarea>
+
+
+
+        </fieldset>
+        <br>
+        <input type="button" value="Salvar">
+        <input type="reset" value="Apagar">
+      </form>
+      
+</body>
+</html>
